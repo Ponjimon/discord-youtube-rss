@@ -4,8 +4,28 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "babel-node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.16.0",
+    "babel-core": "^6.17.0",
+    "babel-eslint": "^7.0.0",
+    "babel-loader": "^6.2.5",
+    "babel-preset-es2015": "^6.16.0",
+    "eslint": "^3.7.1",
+    "eslint-config-airbnb": "^12.0.0",
+    "eslint-plugin-import": "^2.0.1",
+    "eslint-plugin-jsx-a11y": "^2.2.3",
+    "eslint-plugin-react": "^6.4.1"
+  },
+  "dependencies": {
+    "discord.io": "^2.2.3",
+    "feedparser": "^1.1.5",
+    "hapi": "^15.1.1",
+    "pubsubhubbub": "^0.4.1",
+    "request-promise": "^4.1.1"
+  }
 }
