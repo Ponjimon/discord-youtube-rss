@@ -7,7 +7,7 @@ import rp from 'request-promise';
 export default class Bot {
 
     constructor(props) {
-        if (!props.discord || (props.discord && (!props.discord.token || !props.discord.channelID))) {
+        if (!props.discord || (props.discord && !props.discord.token)) {
             throw new Error('Invalid Discord Config. Aborting.');
         }
 
